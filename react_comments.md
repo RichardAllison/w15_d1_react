@@ -147,7 +147,7 @@ We now want our `CommentBox` component to render the `CommentList` component. Le
 import React, { Component } from "react";
 import CommentList from "../components/CommentList"; //UPDATED
 
-class CommentBox extends Compnent {
+class CommentBox extends Component {
   render() {
     return (
       <div className="commentBox">

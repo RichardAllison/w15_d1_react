@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import CommentList from "../components/CommentList"; //UPDATED
 
 class CommentBox extends Component {
   render() {
-    return <div className="comment-box">Hello, world! I am a CommentBox.</div>;
+    return (
+      <div className="commentBox">
+        <CommentList />
+      </div>
+    );
   }
 }
 
