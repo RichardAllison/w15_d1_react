@@ -212,7 +212,7 @@ export default Comment;
 
 ## Data Model
 
-We have hard coded the data in a list of comments. We now want to create a simple array of comments which will be drawn by the view. We are going to set up our CommentBox to be in control of the data. It will handle the comment data, and later on updating it.
+We have hard coded the data in a list of comments. We now want to create a simple array of comments which will be drawn by the view. We are going to set up our CommentBox to be in control of the data. It will handle the comment data, and later on update it.
 
 ## State
 
